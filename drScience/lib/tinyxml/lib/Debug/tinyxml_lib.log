@@ -1,0 +1,27 @@
+﻿Build started 10/7/2012 6:17:36 PM.
+     1>Project "C:\Users\wkerr\Downloads\tinyxml\tinyxml_lib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\\" /Fd"C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\vc100.pdb" /FR"C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\\" /Gd /TP /analyze- /errorReport:prompt tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.lib" /NOLOGO C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinystr.obj
+         C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.obj
+         C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxmlerror.obj
+         C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxmlparser.obj
+         tinyxml_lib.vcxproj -> C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.bsc" C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinystr.sbr C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.sbr C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxmlerror.sbr C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxmlparser.sbr
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.unsuccessfulbuild".
+         Touching "C:\Users\wkerr\Downloads\tinyxml\Debugtinyxml\tinyxml.lastbuildstate".
+     1>Done Building Project "C:\Users\wkerr\Downloads\tinyxml\tinyxml_lib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

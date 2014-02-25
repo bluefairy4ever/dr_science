@@ -1,0 +1,97 @@
+﻿  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\audio\night.wav
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\audio\testMusic.wav
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\average-joeys-logo.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\char.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\drScience.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\drScienceTestTileset.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\dungeon6.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\enemy.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\FF7Cursor.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\healthBar.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\healthBarLow.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\pinkblink.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\roboto.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\sample-menu.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\sample-menu.psd
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\levels\world.tmx
+  16 File(s) copied
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\audio\night.wav
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\audio\testMusic.wav
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\average-joeys-logo.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\char.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\drScience.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\drScienceTestTileset.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\dungeon6.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\enemy.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\FF7Cursor.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\healthBar.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\healthBarLow.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\pinkblink.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\roboto.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\sample-menu.png
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\images\sample-menu.psd
+  C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\..\..\assets\levels\world.tmx
+  16 File(s) copied
+Debug\AnimationComponent.obj : warning LNK4042: object specified more than once; extras ignored
+Debug\Component.obj : warning LNK4042: object specified more than once; extras ignored
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: __invalid_parameter already defined in LIBCMTD.lib(invarg.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: __CrtDbgReportW already defined in LIBCMTD.lib(dbgrptw.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z) already defined in LIBCMTD.lib(stdexcpt.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ) already defined in LIBCMTD.lib(stdexcpt.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z) already defined in LIBCMTD.lib(stdexcpt.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _memmove already defined in LIBCMTD.lib(memmove.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: __wassert already defined in LIBCMTD.lib(wassert.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _printf already defined in LIBCMTD.lib(printf.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _free already defined in LIBCMTD.lib(dbgfree.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _atoi already defined in LIBCMTD.lib(atox.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _isalnum already defined in LIBCMTD.lib(_ctype.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _memchr already defined in LIBCMTD.lib(memchr.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ) already defined in LIBCMTD.lib(stdexcpt.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _tolower already defined in LIBCMTD.lib(tolower.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: __lock_file already defined in LIBCMTD.lib(_file.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: __unlock_file already defined in LIBCMTD.lib(_file.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fwrite already defined in LIBCMTD.lib(fwrite.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fputc already defined in LIBCMTD.lib(fputc.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _ungetc already defined in LIBCMTD.lib(ungetc.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _memcpy_s already defined in LIBCMTD.lib(memcpy_s.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _setvbuf already defined in LIBCMTD.lib(setvbuf.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fflush already defined in LIBCMTD.lib(fflush.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fclose already defined in LIBCMTD.lib(fclose.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z) already defined in LIBCMTD.lib(stdexcpt.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fread already defined in LIBCMTD.lib(fread.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fseek already defined in LIBCMTD.lib(fseek.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _feof already defined in LIBCMTD.lib(feoferr.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _fopen already defined in LIBCMTD.lib(fopen.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _malloc already defined in LIBCMTD.lib(dbgmalloc.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _realloc already defined in LIBCMTD.lib(dbgrealloc.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _strtol already defined in LIBCMTD.lib(strtol.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _strncmp already defined in LIBCMTD.lib(strncmp.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _ldexp already defined in LIBCMTD.lib(_ldexp_.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _ftell already defined in LIBCMTD.lib(ftell.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _wcslen already defined in LIBCMTD.lib(wcslen.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: ___iob_func already defined in LIBCMTD.lib(_file.obj)
+MSVCRTD.lib(MSVCR100D.dll) : error LNK2005: _vprintf already defined in LIBCMTD.lib(vprintf.obj)
+MSVCRTD.lib(ti_inst.obj) : error LNK2005: "private: __thiscall type_info::type_info(class type_info const &)" (??0type_info@@AAE@ABV0@@Z) already defined in LIBCMTD.lib(typinfo.obj)
+MSVCRTD.lib(ti_inst.obj) : error LNK2005: "private: class type_info & __thiscall type_info::operator=(class type_info const &)" (??4type_info@@AAEAAV0@ABV0@@Z) already defined in LIBCMTD.lib(typinfo.obj)
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+tinyxml.obj : error LNK2001: unresolved external symbol "private: static struct TiXmlBase::Entity * TiXmlBase::entity" (?entity@TiXmlBase@@0PAUEntity@1@A)
+tinyxml.obj : error LNK2019: unresolved external symbol "public: class TiXmlString & __thiscall TiXmlString::append(char const *,unsigned int)" (?append@TiXmlString@@QAEAAV1@PBDI@Z) referenced in function "public: static void __cdecl TiXmlBase::EncodeString(class TiXmlString const &,class TiXmlString *)" (?EncodeString@TiXmlBase@@SAXABVTiXmlString@@PAV2@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "private: static struct TiXmlString::Rep TiXmlString::nullrep_" (?nullrep_@TiXmlString@@0URep@1@A)
+TmxLoader.obj : error LNK2001: unresolved external symbol "private: static struct TiXmlString::Rep TiXmlString::nullrep_" (?nullrep_@TiXmlString@@0URep@1@A)
+tinyxml.obj : error LNK2019: unresolved external symbol "public: class TiXmlString & __thiscall TiXmlString::assign(char const *,unsigned int)" (?assign@TiXmlString@@QAEAAV1@PBDI@Z) referenced in function "public: class TiXmlString & __thiscall TiXmlString::operator=(char const *)" (??4TiXmlString@@QAEAAV0@PBD@Z)
+tinyxml.obj : error LNK2019: unresolved external symbol "public: void __thiscall TiXmlDocument::SetError(int,char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?SetError@TiXmlDocument@@QAEXHPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z) referenced in function "public: class TiXmlNode * __thiscall TiXmlNode::LinkEndChild(class TiXmlNode *)" (?LinkEndChild@TiXmlNode@@QAEPAV1@PAV1@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlElement::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlElement@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+tinyxml.obj : error LNK2019: unresolved external symbol "protected: static bool __cdecl TiXmlBase::StringEqual(char const *,char const *,bool,enum TiXmlEncoding)" (?StringEqual@TiXmlBase@@KA_NPBD0_NW4TiXmlEncoding@@@Z) referenced in function "public: int __thiscall TiXmlElement::QueryBoolAttribute(char const *,bool *)const " (?QueryBoolAttribute@TiXmlElement@@QBEHPBDPA_N@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlDocument::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlDocument@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+TmxLoader.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlDocument::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlDocument@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: static unsigned int const TiXmlString::npos" (?npos@TiXmlString@@2IB)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlComment::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlComment@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlText::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlText@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlDeclaration::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlDeclaration@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlUnknown::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlUnknown@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+tinyxml.obj : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall TiXmlAttribute::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlAttribute@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+TmxLoader.obj : error LNK2019: unresolved external symbol _inflateEnd referenced in function "private: class std::vector<unsigned char,class std::allocator<unsigned char> > __thiscall tmx::TileMap::m_Decompress(char const *,int,int)" (?m_Decompress@TileMap@tmx@@AAE?AV?$vector@EV?$allocator@E@std@@@std@@PBDHH@Z)
+TmxLoader.obj : error LNK2019: unresolved external symbol _inflate referenced in function "private: class std::vector<unsigned char,class std::allocator<unsigned char> > __thiscall tmx::TileMap::m_Decompress(char const *,int,int)" (?m_Decompress@TileMap@tmx@@AAE?AV?$vector@EV?$allocator@E@std@@@std@@PBDHH@Z)
+TmxLoader.obj : error LNK2019: unresolved external symbol _inflateInit2_ referenced in function "private: class std::vector<unsigned char,class std::allocator<unsigned char> > __thiscall tmx::TileMap::m_Decompress(char const *,int,int)" (?m_Decompress@TileMap@tmx@@AAE?AV?$vector@EV?$allocator@E@std@@@std@@PBDHH@Z)
+C:\Users\Matt\Documents\Personal\UMKC\COMP-SCI\490GP\drScience\windows\drScience\Debug\drScience.exe : fatal error LNK1120: 17 unresolved externals

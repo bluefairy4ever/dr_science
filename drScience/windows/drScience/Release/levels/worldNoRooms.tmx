@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="102" height="72" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="drScienceTestTileset" tilewidth="16" tileheight="16">
+  <image source="../images/drScienceTestTileset.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Background" width="102" height="72">
+  <data encoding="base64" compression="zlib">
+   eJztnetuwyAMhbOuu3Q39f2fdo3USCiCYIxtbHKO5D9TR4y/5BAIaZdFXy+PuDDiapDbmbXW+J0QH7u4jEg2Efd8inJ+rblttY7EJc2bEqV+je5HSeDiUzkut2dQuEj5SavXgMtxf6jjU0/kaid1XHABlxa1ctn7GLjoKDqXr0qchcu+P63jL+XeD1xkrhcpLqWagstYH+Nw0fDImrTnBtdFxscon5+JC9cjqD5yWehcSvNKcAGXfW247dbarkn7HhRc4nMpXf8Rxv1ZuOTi6HrRzBFcwIUqKy6Uz4IL79jc/v4ux3Ocv8Lf788ca/9fa4cS27G4tYnIpTZ3fW2on1Y7pediM3Ox8CGJPLVqAy6ytUv9U9oja9pq9k2I2bkc+a2U11L8E1zG51nyOHDxzWW2/kbJcxSXz0e8Oaj7CC6U55q4XsAFXMBFKjT8tocLZe2pd04VgYu36yVVaV6Vm1O1vNMBLn1cWvKitMdpF1z66qfJRepZPrjU271lAlx8c6ntM037pcUMXHxw+XmGJhepOnoZXywCXHxyyfUHXPwFuPiMNUfqvhvp9RBK/aj3sjNy2dT67knvekhN4CKXb0t9agIXuXyluWgc90xc9nt4JdQy7rXsiQIXn4rKhbMvCFx0uXD3bEXiwp0XWEbqy2fhYvE9VZLzh7NwGeFjPXXpGV8kjm8lTS77dWFJLqPOCyuBi09F9TFwAZcRisal9b4+t87PeUfMWimX0njgiQtV2/2/9LtkVt+DPSsXLR+w8sBoPjaqX9Zz0hHrMBb+zuVS2lcWaa3As6S5WPvYrAIXnwIXnwIXnwIXnwIXnwIXn0q5SP5eALj0qcRlW2sClzHSWsdY1yr+AXfLZ84=
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="102" height="72">
+  <object name="wallLabTop" type="WALL" x="416" y="336" width="104" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabRight" type="WALL" x="1056" y="336" width="16" height="152">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabBottom" type="WALL" x="416" y="800" width="640" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabLeft" type="WALL" x="400" y="336" width="16" height="104">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabRight" type="WALL" x="1056" y="536" width="16" height="280">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabLeft" type="WALL" x="400" y="488" width="16" height="328">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabTop" type="WALL" x="568" y="336" width="240" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLabTop" type="WALL" x="856" y="336" width="200" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallRecordTop" type="WALL" x="672" y="64" width="384" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallRecordRight" type="WALL" x="1056" y="64" width="16" height="272">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallRecordBottom" type="WALL" x="672" y="320" width="136" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallRecordLeft" type="WALL" x="656" y="64" width="16" height="272">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallRecordBottom" type="WALL" x="856" y="320" width="200" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallAnimalLeft" type="WALL" x="0" y="192" width="16" height="336">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallAnimalTop" type="WALL" x="16" y="192" width="368" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallAnimalRight" type="WALL" x="384" y="192" width="16" height="248">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallAnimalBottom" type="WALL" x="16" y="512" width="120" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallObservationBottom" type="WALL" x="64" y="752" width="160" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallObservationRight" type="WALL" x="224" y="528" width="16" height="240">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallObservationTop" type="WALL" x="64" y="528" width="72" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallObservationLeft" type="WALL" x="48" y="528" width="16" height="240">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallTrapLeft" type="WALL" x="400" y="816" width="16" height="176">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallTrapBottom" type="WALL" x="416" y="976" width="448" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallTrapRight" type="WALL" x="864" y="816" width="16" height="176">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallTrapTop" type="WALL" x="416" y="816" width="448" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLockerLeft" type="WALL" x="400" y="0" width="16" height="336">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLockerTop" type="WALL" x="416" y="0" width="208" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLockerRight" type="WALL" x="624" y="0" width="16" height="336">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLockerBottom" type="WALL" x="416" y="320" width="104" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallAnimalRight" type="WALL" x="384" y="488" width="16" height="40">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallAnimalBottom" type="WALL" x="184" y="512" width="200" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallObservationTop" type="WALL" x="184" y="528" width="40" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLockerBottom" type="WALL" x="568" y="320" width="56" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyBottom" type="WALL" x="1088" y="672" width="200" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyRight" type="WALL" x="1536" y="384" width="16" height="304">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyTop" type="WALL" x="1088" y="384" width="88" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallSecurityTop" type="WALL" x="1152" y="16" width="272" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallBoardTop" type="WALL" x="1120" y="688" width="168" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallSecurityRight" type="WALL" x="1424" y="16" width="16" height="368">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallExecutiveTop" type="WALL" x="1280" y="928" width="8" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallExecutiveRight" type="WALL" x="1616" y="928" width="16" height="224">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallSecurityBottom" type="WALL" x="1224" y="368" width="200" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallSecurityLeft" type="WALL" x="1136" y="16" width="16" height="368">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyLeft" type="WALL" x="1072" y="384" width="16" height="104">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallBoardLeft" type="WALL" x="1104" y="688" width="16" height="240">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallBoardRight" type="WALL" x="1376" y="688" width="16" height="240">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallBoardBottom" type="WALL" x="1120" y="912" width="168" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallExecutiveLeft" type="WALL" x="1264" y="928" width="16" height="224">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallExecutiveBottom" type="WALL" x="1280" y="1136" width="336" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallExecutiveTop" type="WALL" x="1336" y="928" width="280" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallBoardBottom" type="WALL" x="1336" y="912" width="40" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallBoardTop" type="WALL" x="1336" y="688" width="40" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyLeft" type="WALL" x="1072" y="536" width="16" height="152">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyBottom" type="WALL" x="1336" y="672" width="200" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallLobbyTop" type="WALL" x="1224" y="384" width="312" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="wallSecurityBottom" type="WALL" x="1152" y="368" width="24" height="16">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Doors" width="102" height="72">
+  <object name="doorLabRecord" type="DOOR" x="808" y="336" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLabLobby" type="DOOR" x="1064" y="488" width="8" height="48">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLabLocker" type="DOOR" x="520" y="336" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLabAnimal" type="DOOR" x="400" y="440" width="8" height="48">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLockerLab" type="DOOR" x="520" y="328" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorAnimalLab" type="DOOR" x="392" y="440" width="8" height="48">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorRecordLab" type="DOOR" x="808" y="328" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLobbyLab" type="DOOR" x="1072" y="488" width="8" height="48">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorAnimalObservation" type="DOOR" x="136" y="520" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorObservationAnimal" type="DOOR" x="136" y="528" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLabTrap" type="DOOR" x="992" y="608" width="32" height="32">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorTrapExecutive" type="DOOR" x="448" y="928" width="32" height="32">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorExecutiveTrap" type="DOOR" x="1360" y="1120" width="32" height="16">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorSecurityLobby" type="DOOR" x="1176" y="376" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLobbySecurity" type="DOOR" x="1176" y="384" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorLobbyBoard" type="DOOR" x="1288" y="680" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorBoardLobby" type="DOOR" x="1288" y="688" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorBoardExecutive" type="DOOR" x="1288" y="920" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="doorExecutiveBoard" type="DOOR" x="1288" y="928" width="48" height="8">
+   <properties>
+    <property name="components" value="transitiontrigger"/>
+    <property name="fixture.isSensor" value="true"/>
+    <property name="object.type" value="sensor"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="102" height="72">
+  <object name="drScience" type="PLAYER" x="512" y="448" width="32" height="32">
+   <properties>
+    <property name="components" value="control,sprite"/>
+    <property name="fixture.density" value="1.0"/>
+    <property name="fixture.friction" value="1.0"/>
+    <property name="fixture.isSensor" value="false"/>
+    <property name="fixture.restitution" value="0.5"/>
+    <property name="object.type" value="dynamic"/>
+    <property name="shape.radius" value="16"/>
+    <property name="shape.type" value="circle"/>
+    <property name="sprite.filename" value="images/drScience.png"/>
+   </properties>
+  </object>
+  <object name="trash" type="FURNITURE" x="704" y="592" width="32" height="32">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="bed" type="FURNITURE" x="416" y="576" width="80" height="48">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+  <object name="workbench" type="FURNITURE" x="528" y="592" width="160" height="32">
+   <properties>
+    <property name="object.type" value="obstacle"/>
+    <property name="shape.type" value="rectangle"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

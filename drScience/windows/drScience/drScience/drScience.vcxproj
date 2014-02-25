@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9AA70769-CCA4-4932-92E3-2D345A7EFDF3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>drScience</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\lib\zlib-1.2.7\include;$(SolutionDir)..\..\include;$(SolutionDir)..\..\lib\boost_1_51;$(SolutionDir)..\..\lib\Box2D\src\;$(SolutionDir)..\..\lib\SFML-2.0-rc\include;$(SolutionDir)..\..\lib\tinyxml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-audio-s-d.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;Box2D.lib;tinyxml;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\lib\zlib-1.2.7\lib;$(SolutionDir)..\..\lib\SFML-2.0-rc\lib;$(SolutionDir)..\..\lib\Box2D\bin\Debug;$(SolutionDir)..\..\lib\tinyxml\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>XCOPY "$(SolutionDir)..\..\assets" "$(ProjectDir)$(Configuration)\"  /E /Y
+XCOPY "$(SolutionDir)..\..\assets" "$(ProjectDir)" /E /Y</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\lib\zlib-1.2.7\include;$(SolutionDir)..\..\lib\;$(SolutionDir)..\..\include;$(SolutionDir)..\..\lib\Box2D\src;$(SolutionDir)..\..\lib\boost_1_51;$(SolutionDir)..\..\lib\SFML-2.0-rc\include;$(SolutionDir)..\..\lib\tinyxml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-audio-s.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;Box2D.lib;tinyxml.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\lib\zlib-1.2.7\lib;$(SolutionDir)..\..\lib\SFML-2.0-rc\lib;$(SolutionDir)..\..\lib\Box2D\bin\Release;%(AdditionalLibraryDirectories);$(SolutionDir)..\..\lib\tinyxml\lib\Release</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>XCOPY "$(SolutionDir)..\..\assets" "$(ProjectDir)$(Configuration)\"  /E /Y
+XCOPY "$(SolutionDir)..\..\assets" "$(ProjectDir)" /E /Y</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\events\ActionEvent.h" />
+    <ClInclude Include="..\..\..\include\events\AudioEvent.h" />
+    <ClInclude Include="..\..\..\include\events\ContactEvent.h" />
+    <ClInclude Include="..\..\..\include\events\CreateTiledObject.h" />
+    <ClInclude Include="..\..\..\include\events\DeathEvent.h" />
+    <ClInclude Include="..\..\..\include\events\Event.h" />
+    <ClInclude Include="..\..\..\include\events\EventListener.h" />
+    <ClInclude Include="..\..\..\include\events\EventTypes.h" />
+    <ClInclude Include="..\..\..\include\events\PlayAnimationEvent.h" />
+    <ClInclude Include="..\..\..\include\events\ScreenTransitionEvent.h" />
+    <ClInclude Include="..\..\..\include\events\ToggleEvent.h" />
+    <ClInclude Include="..\..\..\include\events\RoomTransitionEvent.h" />
+    <ClInclude Include="..\..\..\include\events\ValueEvent.h" />
+    <ClInclude Include="..\..\..\include\graphics\Animation.h" />
+    <ClInclude Include="..\..\..\include\object\AnimationComponent.h" />
+    <ClInclude Include="..\..\..\include\object\Component.h" />
+    <ClInclude Include="..\..\..\include\object\components\AnimationComponent.h" />
+    <ClInclude Include="..\..\..\include\object\components\Component.h" />
+    <ClInclude Include="..\..\..\include\object\components\ComponentTypes.h" />
+    <ClInclude Include="..\..\..\include\object\components\ControlComponent.h" />
+    <ClInclude Include="..\..\..\include\object\components\HealthComponent.h" />
+    <ClInclude Include="..\..\..\include\object\components\HealthTrigger.h" />
+    <ClInclude Include="..\..\..\include\object\components\RoomTransitionTrigger.h" />
+    <ClInclude Include="..\..\..\include\object\components\SpriteComponent.h" />
+    <ClInclude Include="..\..\..\include\object\GameObject.h" />
+    <ClInclude Include="..\..\..\include\object\PhysicsObject.h" />
+    <ClInclude Include="..\..\..\include\object\Rooms.h" />
+    <ClInclude Include="..\..\..\include\ResourcePath.hpp" />
+    <ClInclude Include="..\..\..\include\screen\battle\BattleScreen.h" />
+    <ClInclude Include="..\..\..\include\screen\GameplayScreen.h" />
+    <ClInclude Include="..\..\..\include\screen\MenuScreen.h" />
+    <ClInclude Include="..\..\..\include\screen\Screen.h" />
+    <ClInclude Include="..\..\..\include\screen\SplashScreen.h" />
+    <ClInclude Include="..\..\..\include\systems\AudioSubsystem.h" />
+    <ClInclude Include="..\..\..\include\systems\battle\BattleBlackboard.h" />
+    <ClInclude Include="..\..\..\include\systems\battle\BattleObject.h" />
+    <ClInclude Include="..\..\..\include\systems\battle\BattleSystem.h" />
+    <ClInclude Include="..\..\..\include\systems\battle\EffectObject.h" />
+    <ClInclude Include="..\..\..\include\systems\Blackboard.h" />
+    <ClInclude Include="..\..\..\include\systems\EventManager.h" />
+    <ClInclude Include="..\..\..\include\systems\GameplaySystem.h" />
+    <ClInclude Include="..\..\..\include\systems\PhysicsSubsystem.h" />
+    <ClInclude Include="..\..\..\include\systems\SpawnSubsystem.h" />
+    <ClInclude Include="..\..\..\include\systems\Subsystem.h" />
+    <ClInclude Include="..\..\..\include\systems\SubsystemTypes.h" />
+    <ClInclude Include="..\..\..\include\utils\Constants.h" />
+    <ClInclude Include="..\..\..\include\utils\TmxLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\events\ContactEvent.cpp" />
+    <ClCompile Include="..\..\..\src\events\CreateTiledObject.cpp" />
+    <ClCompile Include="..\..\..\src\events\Event.cpp" />
+    <ClCompile Include="..\..\..\src\events\PlayAnimationEvent.cpp" />
+    <ClCompile Include="..\..\..\src\graphics\Animation.cpp" />
+    <ClCompile Include="..\..\..\src\main.cpp" />
+    <ClCompile Include="..\..\..\src\object\AnimationComponent.cpp" />
+    <ClCompile Include="..\..\..\src\object\Component.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\AnimationComponent.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\Component.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\ControlComponent.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\HealthComponent.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\HealthTrigger.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\RoomTransitionTrigger.cpp" />
+    <ClCompile Include="..\..\..\src\object\components\SpriteComponent.cpp" />
+    <ClCompile Include="..\..\..\src\object\GameObject.cpp" />
+    <ClCompile Include="..\..\..\src\object\PhysicsObject.cpp" />
+    <ClCompile Include="..\..\..\src\object\Rooms.cpp" />
+    <ClCompile Include="..\..\..\src\ResourcePath.cpp" />
+    <ClCompile Include="..\..\..\src\screen\battle\BattleScreen.cpp" />
+    <ClCompile Include="..\..\..\src\screen\GameplayScreen.cpp" />
+    <ClCompile Include="..\..\..\src\screen\MenuScreen.cpp" />
+    <ClCompile Include="..\..\..\src\screen\SplashScreen.cpp" />
+    <ClCompile Include="..\..\..\src\systems\AudioSubsystem.cpp" />
+    <ClCompile Include="..\..\..\src\systems\battle\BattleBlackboard.cpp" />
+    <ClCompile Include="..\..\..\src\systems\battle\BattleObject.cpp" />
+    <ClCompile Include="..\..\..\src\systems\battle\BattleSystem.cpp" />
+    <ClCompile Include="..\..\..\src\systems\battle\EffectObject.cpp" />
+    <ClCompile Include="..\..\..\src\systems\Blackboard.cpp" />
+    <ClCompile Include="..\..\..\src\systems\EventManager.cpp" />
+    <ClCompile Include="..\..\..\src\systems\GameplaySystem.cpp" />
+    <ClCompile Include="..\..\..\src\systems\PhysicsSubsystem.cpp" />
+    <ClCompile Include="..\..\..\src\systems\SpawnSubsystem.cpp" />
+    <ClCompile Include="..\..\..\src\utils\TmxLoader.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

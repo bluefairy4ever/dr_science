@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\events">
+      <UniqueIdentifier>{6fd0499f-8639-42a7-8562-fde14586cdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{94ddd57b-b7cd-42e8-86d0-dd0a7c9d50c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\object">
+      <UniqueIdentifier>{12908b6a-cdae-4e38-aee6-7abe2e2fe5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screen">
+      <UniqueIdentifier>{3a16feb9-236f-4efc-b201-ab04787404cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\systems">
+      <UniqueIdentifier>{8c08c3f7-88bb-4b0d-b397-b29ad74cbaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{d129c6ea-7d34-4b57-9c1b-8820d32217fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\object\components">
+      <UniqueIdentifier>{659261e6-5295-4c03-aeb2-9ec2d1956242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\events">
+      <UniqueIdentifier>{a93eb711-45aa-459a-acdd-0573da1f0f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{d823663a-f8c7-4bb8-89bf-8747ee8f2ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\object">
+      <UniqueIdentifier>{def65874-934b-4c8f-8831-696af0ec15d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screen">
+      <UniqueIdentifier>{5f1ae1ae-17a0-481c-80e5-fee28249bbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\systems">
+      <UniqueIdentifier>{cd655dce-ca8c-4e7f-89bc-3662cba5d287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{c2807fab-700d-4044-9deb-e12d8055c828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\object\components">
+      <UniqueIdentifier>{48ce3f91-3cf8-482c-8956-ba8a089f599c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\systems\battle">
+      <UniqueIdentifier>{3013d724-e16d-4124-8134-53aca759ed5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\systems\battle">
+      <UniqueIdentifier>{85e67ff3-b0f9-49e2-bdf2-91d59a3a6bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screen\battle">
+      <UniqueIdentifier>{92195b60-77b4-4ad0-975d-80cc151e09c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screen\battle">
+      <UniqueIdentifier>{c6eec7c1-8a6a-4d68-9202-2c29e92071bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\events\ContactEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\CreateTiledObject.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\Event.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\EventListener.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\EventTypes.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\PlayAnimationEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\ToggleEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\ValueEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\graphics\Animation.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\utils\Constants.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\utils\TmxLoader.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\Blackboard.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\EventManager.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\GameplaySystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\PhysicsSubsystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\SpawnSubsystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\Subsystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\SubsystemTypes.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\AnimationComponent.h">
+      <Filter>Header Files\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\Component.h">
+      <Filter>Header Files\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\GameObject.h">
+      <Filter>Header Files\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\PhysicsObject.h">
+      <Filter>Header Files\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\Rooms.h">
+      <Filter>Header Files\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\AnimationComponent.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\Component.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\ComponentTypes.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\ControlComponent.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\SpriteComponent.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\screen\GameplayScreen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\screen\Screen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\screen\SplashScreen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ResourcePath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\screen\MenuScreen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\RoomTransitionEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\RoomTransitionTrigger.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\battle\BattleSystem.h">
+      <Filter>Header Files\systems\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\screen\battle\BattleScreen.h">
+      <Filter>Header Files\screen\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\battle\BattleBlackboard.h">
+      <Filter>Header Files\systems\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\battle\BattleObject.h">
+      <Filter>Header Files\systems\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\HealthComponent.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\ScreenTransitionEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\DeathEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\AudioSubsystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\AudioEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\events\ActionEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systems\battle\EffectObject.h">
+      <Filter>Header Files\systems\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\object\components\HealthTrigger.h">
+      <Filter>Header Files\object\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ResourcePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\events\ContactEvent.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\events\CreateTiledObject.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\events\Event.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\events\PlayAnimationEvent.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\Animation.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\utils\TmxLoader.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\Blackboard.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\EventManager.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\GameplaySystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\PhysicsSubsystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\SpawnSubsystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\screen\GameplayScreen.cpp">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\screen\SplashScreen.cpp">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\AnimationComponent.cpp">
+      <Filter>Source Files\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\Component.cpp">
+      <Filter>Source Files\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\GameObject.cpp">
+      <Filter>Source Files\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\PhysicsObject.cpp">
+      <Filter>Source Files\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\AnimationComponent.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\Component.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\ControlComponent.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\SpriteComponent.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\screen\MenuScreen.cpp">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\RoomTransitionTrigger.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\battle\BattleSystem.cpp">
+      <Filter>Source Files\systems\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\screen\battle\BattleScreen.cpp">
+      <Filter>Source Files\screen\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\Rooms.cpp">
+      <Filter>Source Files\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\battle\BattleBlackboard.cpp">
+      <Filter>Source Files\systems\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\battle\BattleObject.cpp">
+      <Filter>Source Files\systems\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\HealthComponent.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\AudioSubsystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\systems\battle\EffectObject.cpp">
+      <Filter>Source Files\systems\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\object\components\HealthTrigger.cpp">
+      <Filter>Source Files\object\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
